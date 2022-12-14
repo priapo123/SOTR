@@ -52,7 +52,7 @@ void setup() {
 
  // Tarea 1
   xTaskCreatePinnedToCore(startTask1,
-                          "Tarea 1",
+                          "Tarea 1: Lectura del serial",
                           1024,
                           NULL,
                           1,
@@ -61,7 +61,7 @@ void setup() {
 
   // Tarea 2
   xTaskCreatePinnedToCore(startTask2,
-                          "Tarea 2",
+                          "Tarea 2: Repetición del mensaje",
                           1024,
                           NULL,
                           1,
